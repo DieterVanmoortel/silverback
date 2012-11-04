@@ -1,0 +1,82 @@
+body{
+    background-color:#2d2d2d;
+}
+
+#header{
+   height:180px;
+   border-bottom:4px solid #2d2d2d;
+}
+#header section.centered{
+     height:180px;
+}
+
+#main, #header{
+    background-color:#f6f6f2;
+
+}
+#content{
+}
+#left-sidebar{
+
+}
+#right-sidebar{
+}
+#footer{
+
+}
+.centered{
+
+}
+
+/******************* HEADER ***************************/
+#header h2{display:none;}
+#header ul.menu{
+  position:absolute;
+  bottom:0;
+  right:0;
+  list-style: none;
+  margin:0;
+}
+#header ul.menu li{
+  display:inline-block;
+  padding: 5px 13px;
+  width:85px;
+  text-transform:lowercase;
+}
+#header ul.menu li a:hover{
+  text-transform:uppercase;
+  text-decoration:none;
+}
+
+/****************** HIGHLIGHT ***************************/
+#highlight{
+   background-color:#2d2d2d;
+   position:relative;
+   padding:10px;
+}
+#highlight #secondary-menu{
+  height:30px;
+}
+#highlight ul.links{
+  position:absolute;
+  top:0;
+  right:0;
+  list-style: none;
+  margin:0;
+}
+#highlight ul.links li {
+  display:inline-block;
+  padding: 5px 13px;
+  width:85px;
+  text-transform: capitalize;
+}
+#highlight ul.links li a{
+  color:#f6f6f2;
+}
+#highlight ul.links li a:hover{
+  text-decoration:none;
+}
+
+/*********************** FOOTER *******************************/
+#footer a{color:white;}
+#footer a:visited{color:whitesmoke;}

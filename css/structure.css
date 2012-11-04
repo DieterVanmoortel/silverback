@@ -1,0 +1,41 @@
+body, html{
+    position:relative;
+    margin:0;
+    padding:0;
+}
+#header{
+    
+}
+#highlight{
+    
+}
+#main{
+}
+#main-content{
+    display:inline-block;
+    width:100%;
+}
+#content{
+    width:49%;
+}
+#left-sidebar{
+    width:25%;
+}
+#right-sidebar{
+    width:25%;  
+}
+#footer{
+    
+}
+.main-region{
+    display:block;
+}
+.column{
+    display:inline-block;
+    float:left;
+}
+.centered{
+    width:75%;
+    position: relative;
+    margin:auto;
+}
