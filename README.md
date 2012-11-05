@@ -22,4 +22,4 @@ Stylesheets
 
 Maintainer
 ----------
-- yhahn (Young Hahn)
+- Dieter Vanmoortel
