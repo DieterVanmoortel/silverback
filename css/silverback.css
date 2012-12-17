@@ -77,6 +77,11 @@ body{
   text-decoration:none;
 }
 
+/*********************** MAIN *******************************/
+#main-content{
+  min-height:500px;
+}
+
 /*********************** FOOTER *******************************/
 #footer a{color:white;}
 #footer a:visited{color:whitesmoke;}

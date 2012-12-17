@@ -1,4 +1,8 @@
 
+<nav id="tabs">
+ <ul><?php print render($tasks['tabs']['output']); ?></ul>
+ <ul><?php print render($tasks['actions']['output']); ?></ul>
+</nav>
 <div id="header" class="main-region">
     <section class="centered">        
       <div id="main-menu" class="navigation">

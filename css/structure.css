@@ -39,3 +39,26 @@ body, html{
     position: relative;
     margin:auto;
 }
+#tabs {
+  margin-left:50px;
+  height:35px;
+}
+#tabs ul{
+  list-style-type: none;
+  margin:0;
+  float:left;
+}
+#tabs li{
+  display:inline-block;
+  border-left:1px solid grey;
+  height:35px;
+}
+#tabs li:hover{
+  background-color:#444444;
+}
+#tabs li a{
+  display:inline-block;
+  padding:8px;
+  color:white;
+  text-decoration:none;
+}
