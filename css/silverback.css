@@ -1,18 +1,11 @@
 body{
     background-color:#2d2d2d;
 }
-
 #header{
-   height:180px;
-   border-bottom:4px solid #2d2d2d;
+  border-bottom:4px solid #2d2d2d;
 }
-#header section.centered{
-     height:180px;
-}
-
 #main, #header{
-    background-color:#f6f6f2;
-
+  background-color:#f6f6f2;
 }
 #content{
 }
@@ -85,3 +78,22 @@ body{
 /*********************** FOOTER *******************************/
 #footer a{color:white;}
 #footer a:visited{color:whitesmoke;}
+
+
+/**************** FORMS *****************************************/
+#content #edit-submit{
+  padding:7px 12px;
+}
+#content .form-item input{
+  padding:4px;
+  border:1px solid #DDD;
+}
+
+/**************** USER *****************************************/
+#block-user-login ul li{
+  float:right;
+  list-style-type:none;
+  padding:4px;
+  clear:right;
+}
+
